@@ -42,6 +42,6 @@ $(function () {
             axios.get("/user/info")
         ])
         baseInfo.code === 0 ? baseInfo = baseInfo.data : null;
-       $plan.fire(power, baseInfo)
+        $plan.fire(power, baseInfo)
     }
 })
